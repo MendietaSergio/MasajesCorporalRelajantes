@@ -3,7 +3,8 @@ import "./App.css";
 import Header from "./components/Header/Header";
 import Galery from "./components/Carousel/Galery";
 import Presentation from "./components/Presentation";
-import Card from "./components/Card/Card";
+import Card from "./components/Card/";
+import Location from "./components/Location/";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Presentation />
         <Galery />
         <Card/>
+        <Location/>
       </div>
     </BrowserRouter>
   );

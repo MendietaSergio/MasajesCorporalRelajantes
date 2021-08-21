@@ -1,0 +1,21 @@
+.toCome{
+    height: 290px;
+    width: 100%;
+    background-color: black;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.location{
+    height: 350px;
+    width: 100%;
+    background-color: black;
+}
