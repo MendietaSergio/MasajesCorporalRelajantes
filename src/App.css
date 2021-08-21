@@ -10,18 +10,10 @@
   --primary-color:  #282c34;
   --secondary-color:  #61dafb;
   --transparent-color: #ffffff00;
-  --color: #18FF00;
+  --color: #80B525;
 }
 
 .main-container {
   min-height: 80vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

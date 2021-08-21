@@ -12,7 +12,7 @@ const Header = () =>{
              <section className="container">
                  <div className="logos">
                      <Link to="/" onClick={closeNav}>
-                         <img id="logo1" src="logo192.png" alt="Logo" title="Logo"/>
+                         <img id="logo1" src="logo.png" alt="Logo" title="Logo"/>
                      </Link>
                  </div>
                  <button className="btn-menu" onClick={handleShow}>
@@ -22,7 +22,7 @@ const Header = () =>{
                  </button>
                  <nav className={`menu d-flex align-items-center w-100 p-3 ${show ? 'is-active':''}`}>
                      <>
-                     <Link to="/" onClick={closeNav}>Inicio</Link>
+                     <Link to="/" onClick={closeNav}>Relax</Link>
                      <Link to="#" onClick={closeNav}></Link>
                      </>
                      <div className="flex-grow-1 d-flex justify-content-end">

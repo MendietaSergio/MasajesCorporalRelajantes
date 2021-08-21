@@ -1,0 +1,16 @@
+.carousel-inner img{
+    width: 100%;
+    height: 500px;
+}
+.section{
+    margin-top: 0;
+    width: 100%;
+    background-color: var(--color);
+}
+ul li{
+    text-transform: uppercase;
+    border-bottom: none;
+    padding: 0 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
