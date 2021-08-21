@@ -14,8 +14,23 @@
     height: 100%;
     width: 100%;
 }
+.card-img-overlay div span{
+    font-weight: bold;
+    color: white;
+    font-size: 1.6rem;
+}
+.card-img-overlay div .btn{
+    margin-top: 40px;
+    background-color: var(--color);
+    color: white;
+    border-radius: 5px;
+}
+.location_title{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0 20px 0;
+}
 .location{
     height: 350px;
     width: 100%;
-    background-color: black;
 }

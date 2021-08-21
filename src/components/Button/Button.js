@@ -9,7 +9,6 @@ const Button =({
     to,
     ...rest
 }) =>{
-    const history = useHistory();
     const handleClick = (e) => {
         if(to){
             e.preventDefault();

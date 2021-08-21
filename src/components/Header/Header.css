@@ -89,7 +89,15 @@ nav{
     height: 100%;
     background-color: white;
 }
-
+.fab{
+    font-size: 35px;
+}
+.fa-facebook{
+    color: blue;
+}
+.fa-whatsapp{
+    color: seagreen;
+}
 @media screen and (min-width: 992px){
 
     button.btn-menu {
