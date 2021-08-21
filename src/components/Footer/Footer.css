@@ -1,3 +1,6 @@
+.footer_title{
+    font-weight: bolder;
+}
 .footer_about,.footer_openHours,.footer_contact{
     text-align: center;
     margin-bottom: 0;
@@ -6,6 +9,14 @@
     text-align: justify;
     padding-left: 5px;
 }
-footer hr{
+.horizontal-line{
+    box-shadow: 1px solid ;
+    margin: 10px;
     color: var(--color);
+}
+.vertical-line{
+    border-left: thick solid var(--color);
+}
+.footer-copyright{
+    font-weight: bold;
 }
