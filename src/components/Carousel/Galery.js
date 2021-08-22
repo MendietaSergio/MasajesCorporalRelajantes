@@ -3,14 +3,14 @@ const Galery = () => {
   return (
     <>
       <div
-        id="carouselExampleDark"
-        className="carousel carousel-dark slide my-3"
+        id="carouselExampleSuccess"
+        className="carousel carousel-success slide my-3"
         data-bs-ride="carousel"
       >
         <div className="carousel-indicators">
           <button
             type="button"
-            data-bs-target="#carouselExampleDark"
+            data-bs-target="#carouselExampleSuccess"
             data-bs-slide-to="0"
             className="active"
             aria-current="true"
@@ -18,13 +18,13 @@ const Galery = () => {
           ></button>
           <button
             type="button"
-            data-bs-target="#carouselExampleDark"
+            data-bs-target="#carouselExampleSuccess"
             data-bs-slide-to="1"
             aria-label="Slide 2"
           ></button>
           <button
             type="button"
-            data-bs-target="#carouselExampleDark"
+            data-bs-target="#carouselExampleSuccess"
             data-bs-slide-to="2"
             aria-label="Slide 3"
           ></button>
@@ -50,7 +50,7 @@ const Galery = () => {
         <button
           className="carousel-control-prev"
           type="button"
-          data-bs-target="#carouselExampleDark"
+          data-bs-target="#carouselExampleSuccess"
           data-bs-slide="prev"
         >
           <span
@@ -62,7 +62,7 @@ const Galery = () => {
         <button
           className="carousel-control-next"
           type="button"
-          data-bs-target="#carouselExampleDark"
+          data-bs-target="#carouselExampleSuccess"
           data-bs-slide="next"
         >
           <span

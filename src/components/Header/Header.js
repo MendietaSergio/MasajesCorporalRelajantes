@@ -28,10 +28,9 @@ const Header = () => {
               <Link to="/" onClick={closeNav}>
                 Relax
               </Link>
-              <Link to="#" onClick={closeNav}></Link>
             </>
             <div className="flex-grow-1 d-flex justify-content-end">
-              <a
+              <a className="a_whatsapp"
                 href="https://web.whatsapp.com/"
                 rel="noopener noreferrer"
                 target="_blank"

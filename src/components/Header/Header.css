@@ -68,7 +68,9 @@ button.btn-menu i {
     padding: 15px 0;
     text-decoration: none;
 }
-
+.menu .a_whatsapp{
+    border-bottom: none;
+}
 .menu a:last-child {
     border-bottom: none;
 }
