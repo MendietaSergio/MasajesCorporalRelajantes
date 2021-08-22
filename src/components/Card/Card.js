@@ -5,7 +5,7 @@ const Card = () => {
     <>
       <div className="container my-5">
         <div className="row">
-          <div className="col-6 vertical-line">
+          <div className="col vertical-line-trato  w-100">
             <h3 className="text-center trato">Trato</h3>
             <span>
               Cada cliente tendrá su propio tratamiento específico adaptado a
@@ -25,7 +25,7 @@ const Card = () => {
               antes de su evento deportivo.
             </span>
           </div>
-          <div className="col-6 vertical-line">
+          <div className="col vertical-line-list w-100">
             <ul className="list-group ">
               <div className="row m-1">
                 <div className="col-2 correct">

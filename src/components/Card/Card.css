@@ -17,6 +17,17 @@
   align-items: center;
   justify-content: center;
 }
-.vertical-line{
+.vertical-line-trato, .vertical-line-list{
     border-left: thick solid var(--color);
+}
+@media(max-width:768px){
+  .list-group{
+    margin: 30px 0 30px 0;
+  }
+  .vertical-line-list{
+    border-left: none;
+
+    border-right: thick solid var(--color);
+    
+  }
 }
