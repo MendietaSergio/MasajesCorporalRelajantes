@@ -49,13 +49,7 @@ const Header = () => {
           </nav>
         </section>
       </header>
-      {show ? (
-        <div
-          className="active-nav-background"
-          aria-hidden="true"
-          onClick={handleShow}
-        />
-      ) : null}
+      {show ? (<div className="active-nav-background" aria-hidden="true" onClick={handleShow} />) : null}
     </>
   );
 };
