@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/MendietaSergio/MasajesCorporalRelajantes/static/css/main.332e85b9.chunk.css",
+    "main.js": "/MendietaSergio/MasajesCorporalRelajantes/static/js/main.e9ef54fe.chunk.js",
+    "main.js.map": "/MendietaSergio/MasajesCorporalRelajantes/static/js/main.e9ef54fe.chunk.js.map",
+    "runtime-main.js": "/MendietaSergio/MasajesCorporalRelajantes/static/js/runtime-main.9ada6e10.js",
+    "runtime-main.js.map": "/MendietaSergio/MasajesCorporalRelajantes/static/js/runtime-main.9ada6e10.js.map",
+    "static/js/2.93974c0a.chunk.js": "/MendietaSergio/MasajesCorporalRelajantes/static/js/2.93974c0a.chunk.js",
+    "static/js/2.93974c0a.chunk.js.map": "/MendietaSergio/MasajesCorporalRelajantes/static/js/2.93974c0a.chunk.js.map",
+    "index.html": "/MendietaSergio/MasajesCorporalRelajantes/index.html",
+    "static/css/main.332e85b9.chunk.css.map": "/MendietaSergio/MasajesCorporalRelajantes/static/css/main.332e85b9.chunk.css.map",
+    "static/js/2.93974c0a.chunk.js.LICENSE.txt": "/MendietaSergio/MasajesCorporalRelajantes/static/js/2.93974c0a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9ada6e10.js",
+    "static/js/2.93974c0a.chunk.js",
+    "static/css/main.332e85b9.chunk.css",
+    "static/js/main.e9ef54fe.chunk.js"
+  ]
+}
