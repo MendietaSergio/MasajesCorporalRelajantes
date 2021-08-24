@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import "./Header.css";
 import Logo from '../../img/logo.png'
 const Header = () => {
@@ -11,9 +10,9 @@ const Header = () => {
       <header className="header shadow">
         <section className="container">
           <div className="logos">
-            <Link to="/" onClick={closeNav}>
+            <a href="/" onClick={closeNav}>
               <img id="logo1" src={Logo} alt="Logo" title="Logo" />
-            </Link>
+            </a>
           </div>
           <button className="btn-menu" onClick={handleShow}>
             <span>
@@ -26,9 +25,9 @@ const Header = () => {
             }`}
           >
             <>
-              <Link to="/" onClick={closeNav}>
+              <a href="/" className="a_relax" onClick={closeNav}>
                 Relax
-              </Link>
+              </a>
             </>
             <div className="flex-grow-1 d-flex justify-content-end">
               <a className="a_whatsapp"

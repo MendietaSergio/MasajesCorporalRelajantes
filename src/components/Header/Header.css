@@ -13,6 +13,9 @@ button.btn-menu .fa-times:before{
     width: .8rem;
 }
 
+.a_relax:hover{
+    color: red;
+}
 button.btn-menu i {
     color:  var(--color);
     font-weight: 900;
