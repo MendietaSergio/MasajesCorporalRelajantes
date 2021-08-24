@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
+import Logo from '../../../public/logo.png'
 const Header = () => {
   const [show, setShow] = useState(false);
   const handleShow = () => setShow(!show);
@@ -11,7 +12,7 @@ const Header = () => {
         <section className="container">
           <div className="logos">
             <Link to="/" onClick={closeNav}>
-              <img id="logo1" src="logo.png" alt="Logo" title="Logo" />
+              <img id="logo1" src={Logo} alt="Logo" title="Logo" />
             </Link>
           </div>
           <button className="btn-menu" onClick={handleShow}>
