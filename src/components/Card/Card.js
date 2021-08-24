@@ -31,7 +31,7 @@ const Card = () => {
                 <div className="col-2 correct">
                   <i className="far fa-check-circle "></i>
                 </div>
-                <div className="col-10 h6">
+                <div className="col-10">
                   <li className="list-group-item">Descontracturante</li>
                 </div>
               </div>
@@ -40,7 +40,7 @@ const Card = () => {
                   <i className="far fa-check-circle "></i>
                 </div>
                 <div className="col-10">
-                  <li className="list-group-item">Drenaje Lifatico</li>
+                  <li className="list-group-item">Drenaje Linfático</li>
                 </div>
               </div>
               <div className="row m-1">
@@ -56,7 +56,7 @@ const Card = () => {
                   <i className="far fa-check-circle "></i>
                 </div>
                 <div className="col-10">
-                  <li className="list-group-item">Reflexologia                  
+                  <li className="list-group-item">Reflexología                  
                   </li>
                 </div>
               </div>
@@ -65,7 +65,7 @@ const Card = () => {
                   <i className="far fa-check-circle "></i>
                 </div>
                 <div className="col-10">
-                  <li className="list-group-item">Efecto calmante y relajante</li>
+                  <li className="list-group-item">Efecto Calmante y Relajante</li>
                 </div>
               </div>
               <div className="row m-1">
@@ -74,7 +74,7 @@ const Card = () => {
                 </div>
                 <div className="col-10">
                   <li className="list-group-item">
-                    Terapia para mejorar circularion sanguinea
+                  Terapia para mejorar circulación sanguinea
                   </li>
                 </div>
               </div>
