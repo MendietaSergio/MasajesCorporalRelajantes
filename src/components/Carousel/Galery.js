@@ -31,15 +31,15 @@ const Galery = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active" data-bs-interval="10000">
-            <img src="./img/img_01.jpg" className="d-block w-100" alt="..." />
+            <img src="./img/Relax_carrusel.jpeg" className="d-block w-100" alt="..." />
             <div className="carousel-caption d-none d-md-block"></div>
           </div>
           <div className="carousel-item" data-bs-interval="2000">
-            <img src="./img/img_02.jpg" className="d-block w-100" alt="..." />
+            <img src="./img/Tarjeta.jpeg" className="d-block w-100" alt="..." />
             <div className="carousel-caption d-none d-md-block"></div>
           </div>
           <div className="carousel-item">
-            <img src="./img/img_03.jpg" className="d-block w-100" alt="..." />
+            <img src="./img/Productos.jpeg" className="d-block w-100" alt="..." />
             <div className="carousel-caption d-none d-md-block"></div>
           </div>
           <div className="carousel-item">

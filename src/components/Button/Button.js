@@ -1,5 +1,4 @@
 import React from 'react';
-import { useHistory } from 'react-router-dom';
 
 const Button =({
     className="btn btn-primary",
@@ -23,12 +22,7 @@ const Button =({
         {...rest}
         onClick={handleClick}
         >
-            {loading ? (
-                <>
-                    <i className="fas fa-spinner fa-pulse"/>
-                    <span className="px-2">REDIRECCIONANDO..</span>
-                </>
-            ): (text)}
+            {text}
 
         </button>
     )

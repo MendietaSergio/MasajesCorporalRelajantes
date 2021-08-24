@@ -20,12 +20,15 @@ const Location = () => {
                 </span>
               </div>
               <div className="col-12 ">
-                <Button
+                <a className="a_reserva"
+                href="https://api.whatsapp.com/send?phone=+5491134585757&text=Hola%20Bas%C3%AD%20!!%20%F0%9F%91%8B%F0%9F%8F%BC%20Quiero%20reservar/averiguar%20un%20turno%20%F0%9F%98%81"
+                rel="noopener noreferrer"
+                target="_blank"><Button
                   type="button"
-                  to="www.google.com"
                   className="mx-auto btn  h5 d-flex list-group-item"
                   text="Reserva"
-                ></Button>
+                ></Button></a>
+                
               </div>
             </div>
           </div>

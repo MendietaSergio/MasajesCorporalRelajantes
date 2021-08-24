@@ -34,3 +34,9 @@
     height: 350px;
     width: 100%;
 }
+.a_reserva{
+    text-decoration: none;
+}
+.a_reserva Button:after{
+    border-color: red;
+}
