@@ -1,11 +1,11 @@
 import Button from "../Button/Button";
 import "./Location.css";
-
+import Banner from '../../img/img_02.jpg'
 const Location = () => {
   return (
     <>
       <div className="toCome ">
-        <img src="./img/img_02.jpg" title="Productos" className="img" />
+        <img src={Banner} title="Productos" className="img" />
         <div className="row">
           <div className="container">
             <div className="card-img-overlay list-group nav d-flex justify-content-center align-items-center">

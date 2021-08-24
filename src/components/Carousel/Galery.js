@@ -1,4 +1,8 @@
 import "./Galery.css";
+import Relax from '../../img/Carrusel/Relax_carrusel.jpeg'
+import Tarjeta from '../../img/Carrusel/Tarjeta.jpeg'
+import Productos from '../../img/Carrusel/Productos.jpeg'
+import Camilla from '../../img/Carrusel/Camilla.jpg'
 const Galery = () => {
   return (
     <>
@@ -31,19 +35,19 @@ const Galery = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active" data-bs-interval="10000">
-            <img src="./img/Relax_carrusel.jpeg" className="d-block w-100" alt="..." />
+            <img src={Relax} className="d-block w-100" alt="..." />
             <div className="carousel-caption d-none d-md-block"></div>
           </div>
           <div className="carousel-item" data-bs-interval="2000">
-            <img src="./img/Tarjeta.jpeg" className="d-block w-100" alt="..." />
+            <img src={Tarjeta} className="d-block w-100" alt="..." />
             <div className="carousel-caption d-none d-md-block"></div>
           </div>
           <div className="carousel-item">
-            <img src="./img/Productos.jpeg" className="d-block w-100" alt="..." />
+            <img src={Productos} className="d-block w-100" alt="..." />
             <div className="carousel-caption d-none d-md-block"></div>
           </div>
           <div className="carousel-item">
-            <img src="./img/img_04.jpg" className="d-block w-100" alt="..." />
+            <img src={Camilla} className="d-block w-100" alt="..." />
             <div className="carousel-caption d-none d-md-block"></div>
           </div>
         </div>
