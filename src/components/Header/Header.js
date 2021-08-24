@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
-import Logo from '../../../public/logo.png'
+import Logo from '../../img/logo.png'
 const Header = () => {
   const [show, setShow] = useState(false);
   const handleShow = () => setShow(!show);
