@@ -35,14 +35,14 @@ const Header = () => {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <i class="fab fa-whatsapp"></i>
+                <i className="fab fa-whatsapp"></i>
               </a>
               <a
                 href="https://www.facebook.com/Masajes-Corporal-y-Relajante-100340772233615"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <i class="fab fa-facebook"></i>
+                <i className="fab fa-facebook"></i>
               </a>
             </div>
           </nav>
