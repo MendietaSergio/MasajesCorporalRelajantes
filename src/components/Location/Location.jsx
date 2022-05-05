@@ -1,7 +1,7 @@
-import Button from "../Button/Button";
+import {Button} from "../Button/Button";
 import "./Location.css";
 import Banner from '../../img/img_02.jpg'
-const Location = () => {
+export const Location = () => {
   return (
     <>
       <div className="toCome ">
@@ -52,5 +52,3 @@ const Location = () => {
     </>
   );
 };
-
-export default Location;

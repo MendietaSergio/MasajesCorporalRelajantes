@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Header.css";
 import Logo from '../../img/logo.png'
-const Header = () => {
+export const Header = () => {
   const [show, setShow] = useState(false);
   const handleShow = () => setShow(!show);
   const closeNav = () => setShow(false);
@@ -52,4 +52,3 @@ const Header = () => {
     </>
   );
 };
-export default Header;

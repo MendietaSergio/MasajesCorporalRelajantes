@@ -3,7 +3,7 @@ import Relax from '../../img/Carrusel/Relax_carrusel.png'
 import Tarjeta from '../../img/Carrusel/Tarjeta.jpeg'
 import Productos from '../../img/Carrusel/Productos.jpeg'
 import Camilla from '../../img/Carrusel/Camilla.jpg'
-const Galery = () => {
+export const Galery = () => {
   return (
     <>
       <div
@@ -92,5 +92,3 @@ const Galery = () => {
     </>
   );
 };
-
-export default Galery;

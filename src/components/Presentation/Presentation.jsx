@@ -1,5 +1,5 @@
 import "./Presentation.css";
-const Presentation = () => {
+export const Presentation = () => {
   return (
     <>
       <div className="presentation">        
@@ -15,4 +15,3 @@ const Presentation = () => {
     </>
   );
 };
-export default Presentation;
