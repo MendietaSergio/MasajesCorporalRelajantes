@@ -1,0 +1,19 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color:  #282c34;
+  --secondary-color:  #528200;
+  --transparent-color: #ffffff00;
+  --color: #80B525;
+}
+
+.main-container {
+  min-height: 80vh;
+}
+

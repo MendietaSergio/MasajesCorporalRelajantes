@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import "./Footer.css";
 
 const Footer = () => {
@@ -22,7 +23,7 @@ const Footer = () => {
             <div className="col-sm col-md col-lg vertical-line-contact w-100">
               <h5 className="text-center footer_title">Contacto</h5>
               <p className="footer_contact">
-                <i class="fas fa-map-marker-alt"></i> Humberto Primo 6496, San
+                <i class="fas fa-map-marker-alt"></i> Calle 836 N° 2540, San
                 Francisco Solano, Provincia de Buenos Aires
               </p>
               <p className="footer_contactPhone">
@@ -35,15 +36,16 @@ const Footer = () => {
             <div className="row">
               <div className="col d-flex justify-content-center w-100">
                 <p className="footer-copyright">
-                  Plantilla Copyright © Portafolio{" "}
-                  <a
-                    className="footer-a"
-                    href="http://linkedin.com/in/mendietasergio"
+                  &copy; {new Date().getFullYear()}{" "}
+                  <Link
+                    to="https://dev-mendietasergio.com.ar/?utm_source=portfolio_dario&utm_medium=footer_referral"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="hover:text-white transition-colors"
                   >
-                    Mendieta Sergio
-                  </a>
+                    Sergio Mendieta - Dev
+                  </Link>
+                  . Todos los derechos reservados.
                 </p>
               </div>
             </div>

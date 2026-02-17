@@ -1,16 +1,66 @@
-.carousel-inner img{
-    width: 100%;
-    height: 500px;
+.gallery-container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 }
-.section{
-    margin-top: 0;
-    width: 100%;
-    background-color: var(--color);
+
+.slider {
+  --slider-height-percentage: 60%;
+  --slider-transition-duration: 700ms;
 }
-ul li{
-    text-transform: uppercase;
-    border-bottom: none;
-    padding: 0 1rem;
-    font-size: 1.1rem;
-    font-weight: bold;
+
+.awssld {
+  --organic-arrow-thickness: 4px;
+  --organic-arrow-border-radius: 0px;
+  --organic-arrow-height: 40px;
+  --organic-arrow-color: hsl(var(--primary));
+  --control-button-width: 10%;
+  --control-button-height: 50%;
+  --control-button-background: transparent;
+  --control-bullet-color: hsl(var(--muted));
+  --control-bullet-active-color: hsl(var(--primary));
+  --loader-bar-color: hsl(var(--primary));
+  --loader-bar-height: 6px;
+}
+
+.benefits-section {
+  background-color: hsl(var(--secondary));
+  padding: 2rem 1rem;
+  margin-top: 2rem;
+  box-shadow: 0 -5px 20px rgba(0,0,0,0.2);
+}
+
+.benefits-list {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.benefit-item {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #fff; /* Always white on teal */
+  padding: 0.5rem 1rem;
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 50px;
+  cursor: pointer;
+  background: rgba(255,255,255,0.1);
+  transition: transform 0.3s, background 0.3s;
+}
+
+.benefit-item:hover {
+  transform: translateY(-5px);
+  background: rgba(255,255,255,0.2);
+}
+
+@media (max-width: 768px) {
+  .benefits-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
 }

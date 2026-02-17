@@ -1,0 +1,42 @@
+.trato {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.correct {
+  background-color: var(--color);
+  border-radius: 8px;
+  height: 30px;
+  width: 30px;
+}
+.far {
+  color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vertical-line-trato, .vertical-line-list{
+    border-left: thick solid var(--color);
+}
+@media(max-width:768px){
+  .list-group{
+    margin: 30px 0 30px 0;
+  }
+  
+}
+@media(max-width:425px){
+  .vertical-line-list{
+    border-left: none;
+
+    border-right: thick solid var(--color);
+    
+  }
+  
+}
+@media(max-width: 375px){
+  .list-group-item{
+    font-size: 14px;
+  }
+}

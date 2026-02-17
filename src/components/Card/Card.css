@@ -1,42 +1,114 @@
-.trato {
-  font-size: 40px;
-  font-weight: bold;
+.treatment-container {
+  padding: 4rem 1rem;
+  background-color: hsl(var(--background));
 }
 
-.correct {
-  background-color: var(--color);
-  border-radius: 8px;
-  height: 30px;
-  width: 30px;
-}
-.far {
-  color: white;
-  height: 100%;
-  width: 100%;
-  display: flex;
+.treatment-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
   align-items: center;
+}
+
+.treatment-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  border-right: 1px solid hsl(var(--primary) / 0.3);
+  padding-right: 2rem;
+  min-height: 400px; /* Ensure height for slider */
   justify-content: center;
 }
-.vertical-line-trato, .vertical-line-list{
-    border-left: thick solid var(--color);
-}
-@media(max-width:768px){
-  .list-group{
-    margin: 30px 0 30px 0;
-  }
-  
-}
-@media(max-width:425px){
-  .vertical-line-list{
-    border-left: none;
 
-    border-right: thick solid var(--color);
-    
+.slider-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: hsl(var(--primary));
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.treatment-text {
+  font-size: 1.1rem;
+  color: hsl(var(--muted-foreground));
+  line-height: 1.7;
+}
+
+.slider-indicators {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: hsl(var(--muted));
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.indicator.active {
+  background-color: hsl(var(--primary));
+}
+
+.treatment-list-wrapper {
+  padding-left: 2rem;
+}
+
+.treatment-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.treatment-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.2rem;
+  color: hsl(var(--foreground));
+  transition: transform 0.3s;
+}
+
+.treatment-item:hover {
+  transform: translateX(10px);
+}
+
+.check-icon {
+  color: hsl(var(--primary));
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .treatment-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .treatment-info {
+    border-right: none;
+    border-bottom: 1px solid hsl(var(--primary) / 0.3);
+    padding-right: 0;
+    padding-bottom: 2rem;
+    text-align: center;
+    min-height: auto;
   }
   
-}
-@media(max-width: 375px){
-  .list-group-item{
-    font-size: 14px;
+  .slider-indicators {
+    justify-content: center;
+  }
+
+  .treatment-list-wrapper {
+    padding-left: 0;
   }
 }
