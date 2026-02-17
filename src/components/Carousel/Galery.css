@@ -3,7 +3,7 @@
   margin: 2rem auto;
   border-radius: var(--radius);
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
 }
 
 .slider {
