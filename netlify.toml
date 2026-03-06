@@ -4,6 +4,7 @@
   
   [build.environment]
     NODE_VERSION = "20"
+    SECRETS_SCAN_OMIT_KEYS = "VITE_BACKEND_URL_SERVICIOWEB"
 
 [[redirects]]
   from = "/*"
